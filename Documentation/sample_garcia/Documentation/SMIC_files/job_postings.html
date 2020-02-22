@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>
+SMIC Job Postings
+</title>
+
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<div style="z-index:-1;background-repeat: no-repeat; background-size:cover; position:fixed; height:100%; width:100%; background-image: url(moa.jpg); margin-left:-9px;">
+</div>
+
+<div class="class_header" style="background-color:white; width:100%; height:22%; position:fixed; margin-top: -8px; margin-left:-9px;">
+<center> <img src="smic-logo.jpg" style= "height:60; width:300;"> </center> <br>
+
+
+<div class="header_menus" style="word-spacing: 60px;">
+
+<center>
+
+ <button class="button btn" type="button"> 
+ <a href="SMIC.html" target="_self">
+ <font style ="font-size:20px; font-family: Cambria; ">
+  Home </font></a></button>
+  
+  <button class="button btn" type="button"> 
+ <a id="jobpostings" href="job_postings.html" target="_self">
+ <font style ="font-size:20px; font-family: Cambria; ">
+ JobPostings</font></a></button>
+ 
+ <button class="button btn" type="button"> 
+ <a id="contacts" href="contacts.html" target="_self">
+ <font style ="font-size:20px; font-family: Cambria; ">
+ Contacts</font></a></button>
+ 
+ <button class="button btn" type="button"> 
+ <a id="login" href="login.html" target="_self">
+ <font style ="font-size:20px; font-family: Cambria; ">
+ Log-in</font></a></button>
+ </center>
+
+ </div>
+</div>
+<div class="floating-box3">
+<br>
+ <table class="jp_table">
+  <tr class="jp_tr">
+    <th>THEAD</th>
+    <th>THEAD</th>
+    <th>THEAD</th>
+  </tr>
+ <tr class="jp_tr1">
+    <td class="jp_td">text info</td>
+    <td class="jp_td">text info</td>
+    <td class="jp_td">text info 
+	
+	<b>
+	<button class="button btn_view" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+	
+	<font style="font-family:Dubai Medium; font-size10px;">
+	
+	View </font></button>
+	
+
+<div id="id01" class="modal">
+ <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+  
+  show information here
+</div>
+
+	
+	</td>	
+  </tr>
+  
+</table></div>
+
+
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
