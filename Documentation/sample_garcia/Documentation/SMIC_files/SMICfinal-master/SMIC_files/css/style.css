@@ -1,0 +1,249 @@
+
+body {
+		
+	
+		
+}
+/* header */
+
+
+.header_menus { float:center;
+
+      }
+	  
+.btn {
+  background-color: white; 
+  color: black; 
+  padding: 14px 40px;
+  border: 1px solid white;
+  
+  
+}
+
+.btn:hover {
+  background-color: #073784;
+  color: white;
+}	  
+  
+a { color: inherit;
+      text-decoration: none;  } 
+	  
+/*body imgs*/
+
+.btn {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* contacts*/
+.floating-box {
+  float: center;
+  width: 950px;
+  height: 400px;
+  margin: 10px;
+  background-color:#073784;
+ opacity: 0.9;
+
+}
+/*log in */
+.floating-box2 {
+  float: center;
+  width: 550px;
+  height: 420px;
+  margin: 10px;
+ background-color:#000;
+ opacity: 0.9;
+ box-shadow: -5px 8px #353333; 
+ 
+ 
+
+}
+.floating-box2 input{
+	width:50%;
+	margin-bottom: -15px;
+	
+}
+
+.floating-box2 input[type="text"], input[type="password"] 
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.floating-box2 input[type="submit"] 
+{
+	border: none;
+	outline:none;
+	height: 40px;
+	background-color: #073784;
+	color: #fff;
+	font-size:18px; 
+	border-radius: 20px;
+	width: 100px;
+}
+.floating-box2 input[type="submit"]:hover 
+{
+	cursor:pointer;
+	background: white;
+	color: black;
+}
+
+#fpsw {
+	color: white;
+	margin-left:-300px;
+	}
+	
+#fpsw:hover 
+{
+	text-decoration: underline;
+	}	
+#chckbox {    color: white;
+           margin-right: 350px;
+}	
+#remb {
+	color: white;
+	margin-top: -1px;
+   margin-right: 296px;
+	}
+	
+
+	
+/* job postings*/
+
+.jp_table {
+  border-collapse: collapse;
+  width: 95%;
+  position: absolute;
+  margin-left:25px;
+  color: white;
+  
+}
+.jp_tr {
+	padding: 8px;
+  text-align: left;
+  margin-bottom:2px;
+  height:10px;
+}
+.jp_tr1 {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin-bottom:2px;
+}
+.jp_td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin-bottom:2px;
+}
+
+.jp_tr1:hover {background-color:#2B2B2B;}
+
+th { background-color:464141;
+      }
+.floating-box3 {
+  
+  width: 950px;
+  height: 400px;
+  margin: 10px;
+  background-color:#073784;
+ opacity: 0.9;
+ margin-left:200px;
+ position: absolute;
+    margin-top: 150;
+
+}
+
+
+/* modal*/
+
+.btn_view {
+  background-color: white; 
+  color: black; 
+ 
+}
+
+.btn_view:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  width: 80%; 
+  height: 65%; 
+  background-color: #000;
+  padding-top: 60px;
+ margin-left: -648px;
+ margin-top:-70px;
+}
+
+.modal-content {
+ color: white;
+  margin: 5% auto 15% auto; 
+  width: 90%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: blue;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+/*sign up*/
+
+#cancel {
+	font-size: 15px;
+         background-color: #555555;
+  color: white;
+  border: 2px solid #555555;}
+  
+ #cancel:hover {
+	 
+   background-color: red;
+  color: black;
+ } 
+
+ 
